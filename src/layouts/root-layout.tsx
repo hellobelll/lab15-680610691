@@ -27,10 +27,8 @@ export default function RootLayout() {
           <Outlet />
         </main>
 
-        {/* Footer: ชื่อ-นามสกุล และรหัสนักศึกษาของผู้จัดทำ (ข้อ 4) */}
         <footer className="border-t px-4 py-3 text-center text-xs text-muted-foreground">
-          จัดทำโดย {currentStudent.firstName} {currentStudent.lastName}{" "}
-          รหัสนักศึกษา {currentStudent.studentId}
+          จัดทำโดย นายปรัตถกร คล้ายแก้ว รหัสนักศึกษา 680610691
         </footer>
       </SidebarInset>
     </SidebarProvider>
