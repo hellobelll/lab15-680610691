@@ -22,12 +22,12 @@ export default function RootLayout() {
           </div>
           <ModeToggle />
         </header>
+
         <main className="flex-1 p-4">
           <Outlet />
         </main>
-
-        <footer className="border-t px-4 py-3 text-center text-xs text-muted-foreground">
-          จัดทำโดย นายปรัตถกร คล้ายแก้ว รหัสนักศึกษา 680610691
+        <footer className="border-t p-4 text-center text-xs text-muted-foreground">
+         จัดทำโดย นายปรัตถกร คล้ายแก้ว รหัสนักศึกษา 680610691
         </footer>
       </SidebarInset>
     </SidebarProvider>
